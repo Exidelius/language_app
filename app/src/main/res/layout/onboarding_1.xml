@@ -1,17 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="2"
     >
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/illustrations"
+            />
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
         >
 
-    </ScrollView>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/slider" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/fredoka_condensed_medium"
+            android:textSize="22"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="Confidence in your words"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/fredoka_condensed_medium"
+            android:textSize="15"
+            android:textColor="@color/gray"
+            android:layout_height="wrap_content"
+            android:text="With conversation-based learning,\nyou'll be talking from lesson one"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:fontFamily="@font/fredoka_condensed_medium"
+            android:textSize="24"
+            android:padding="16"
+            android:layout_margin="12"
+            android:text="Next" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skip onboarding"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="15"
+            android:fontFamily="@font/fredoka_condensed_medium"
+            android:letterSpacing="0.01"
+            android:textFontWeight="400"/>
+    </LinearLayout>
 
 </LinearLayout>
