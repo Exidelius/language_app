@@ -4,7 +4,7 @@
     tools:context="com.screens.language_app.NoConnection"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/text_accent"
     android:orientation="vertical">
 
     <Toolbar
@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="😞"
-            android:textColor="@color/white"
+            android:textColor="@color/text_accent"
             android:textAlignment="center"
             android:textSize="150sp">
 
@@ -35,7 +35,7 @@
             android:fontFamily="@font/fredoka_condensed_medium"
             android:text="No\ninternet connection"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/text_base"
             android:textFontWeight="500"
             android:textSize="30sp"
             android:textStyle="bold">
@@ -48,13 +48,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="20sp"
-        android:background="@drawable/button"
+        android:background="@drawable/usable_base"
         android:fontFamily="@font/fredoka_condensed_medium"
         android:lineHeight="24sp"
         android:padding="16sp"
         android:text="Check again"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="@color/text_accent"
         android:textFontWeight="500"
         android:textSize="20sp"
         android:textStyle="bold">

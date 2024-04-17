@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="text_accent">#FFFFFFFF</color>
+    <color name="text_base">#FF000000</color>
+    <color name="text_purple">#410FA3</color>
     <color name="accent">#410FA3</color>
-    <color name="text_white">#410FA3</color>
-    <color name="button">#5B7BFE</color>
-    <color name="background">#FFFFFF</color>
-    <color name="usable">#FFF6EB</color>
-    <color name="inactive">#E5E5E5</color>
     <color name="required">#D6185D</color>
-    <color name="resize_back">#1B1815</color>
+    <color name="background">#FFFFFF</color>
+    <color name="background_resize">#1B1815</color>
+    <color name="usable_base">#5B7BFE</color>
+    <color name="usable_light">#FFF6EB</color>
+    <color name="usable_green">#5BA890</color>
+    <color name="usable_orange">#F76400</color>
+    <color name="usable_inactive">#E5E5E5</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
     <color name="gray">#99080E1E</color>
 </resources>
