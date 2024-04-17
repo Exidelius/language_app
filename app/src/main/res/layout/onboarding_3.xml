@@ -19,7 +19,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/illustrations"
+            android:src="@drawable/illustrations_2"
             />
     </LinearLayout>
 
@@ -41,7 +41,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/slider"
+                android:src="@drawable/slider_2"
                 android:layout_margin="8"
                 />
         </LinearLayout>
@@ -60,7 +60,7 @@
                 android:lineHeight="28"
                 android:textColor="@color/black"
                 android:layout_height="wrap_content"
-                android:text="Confidence in your words"
+                android:text="The lessons you need to learn"
                 android:textAlignment="center"
                 />
 
@@ -73,7 +73,7 @@
                 android:letterSpacing="0.01"
                 android:textColor="@color/gray"
                 android:layout_height="wrap_content"
-                android:text="With conversation-based learning,\nyou'll be talking from lesson one"
+                android:text="Using a variety of learning styles to learn\nand retain"
                 android:textAlignment="center"/>
         </LinearLayout>
 
@@ -94,7 +94,7 @@
                 android:textSize="24"
                 android:padding="16"
                 android:layout_margin="12"
-                android:text="Next" />
+                android:text="Choose a language" />
 
             <TextView
                 android:id="@+id/textView4"
