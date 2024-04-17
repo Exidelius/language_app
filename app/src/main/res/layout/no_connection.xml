@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.screens.language_app.NoConnection"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
@@ -7,7 +9,7 @@
 
     <Toolbar
         android:layout_width="match_parent"
-        android:layout_height="92"
+        android:layout_height="54sp"
         android:background="@color/accent"></Toolbar>
 
     <LinearLayout
@@ -23,38 +25,38 @@
             android:text="😞"
             android:textColor="@color/white"
             android:textAlignment="center"
-            android:textSize="150">
+            android:textSize="150sp">
 
         </TextView>
 
         <TextView
-            android:layout_width="270"
+            android:layout_width="270sp"
             android:layout_height="wrap_content"
             android:fontFamily="@font/fredoka_condensed_medium"
             android:text="No\ninternet connection"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textFontWeight="500"
-            android:textSize="30"
+            android:textSize="30sp"
             android:textStyle="bold">
 
         </TextView>
     </LinearLayout>
 
     <Button
-        android:layout_width="327"
+        android:layout_width="327sp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="20"
+        android:layout_margin="20sp"
         android:background="@drawable/button"
         android:fontFamily="@font/fredoka_condensed_medium"
-        android:lineHeight="24"
-        android:padding="16"
+        android:lineHeight="24sp"
+        android:padding="16sp"
         android:text="Check again"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textFontWeight="500"
-        android:textSize="20"
+        android:textSize="20sp"
         android:textStyle="bold">
 
     </Button>

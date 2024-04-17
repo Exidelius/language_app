@@ -4,6 +4,8 @@
     <color name="text_white">#410FA3</color>
     <color name="button">#5B7BFE</color>
     <color name="background">#FFFFFF</color>
+    <color name="usable">#FFF6EB</color>
+    <color name="required">#D6185D</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
