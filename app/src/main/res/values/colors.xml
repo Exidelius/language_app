@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="text_accent">#FFFFFFFF</color>
+    <color name="text_accent_transparent">#B6B6B6</color>
     <color name="text_base">#FF000000</color>
     <color name="text_purple">#410FA3</color>
     <color name="accent">#410FA3</color>
@@ -10,6 +11,7 @@
     <color name="usable_base">#5B7BFE</color>
     <color name="usable_light">#FFF6EB</color>
     <color name="usable_green">#5BA890</color>
+    <color name="usable_red">#D6185D</color>
     <color name="usable_orange">#F76400</color>
     <color name="usable_inactive">#E5E5E5</color>
     <color name="purple_700">#FF3700B3</color>
