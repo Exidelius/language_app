@@ -2,6 +2,7 @@
 <resources>
     <color name="accent">#410FA3</color>
     <color name="text_white">#410FA3</color>
+    <color name="button">#5B7BFE</color>
     <color name="background">#FFFFFF</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
