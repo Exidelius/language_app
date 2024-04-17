@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.screens.language_app.EmptyScreen"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.screens.language_app.EmptyScreen">
+
     <Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/accent"
-        android:titleTextAppearance="@style/toolbar_style"
-        android:padding="24sp">
+        android:padding="24sp"
+        android:titleTextAppearance="@style/toolbar_style">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,26 +21,27 @@
             <ImageView
                 android:layout_width="54sp"
                 android:layout_height="54sp"
-                android:src="@drawable/empty_user"/>
+                android:src="@drawable/empty_user" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:fontFamily="@font/fredoka_condensed_medium"
+                android:letterSpacing="0.01"
                 android:text="Hello, Emil"
                 android:textColor="@color/text_accent"
-                android:layout_marginTop="5sp"
-                android:textSize="22sp"
-                android:letterSpacing="0.01"
-                android:fontFamily="@font/fredoka_condensed_medium"/>
+                android:textSize="22sp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:fontFamily="@font/fredoka_condensed_medium"
+                android:letterSpacing="0.01"
                 android:text="Are you ready for learning today?"
                 android:textColor="@color/text_accent_transparent"
-                android:layout_marginTop="5sp"
-                android:textSize="17sp"
-                android:letterSpacing="0.01"
-                android:fontFamily="@font/fredoka_condensed_medium"/>
+                android:textSize="17sp" />
 
         </LinearLayout>
     </Toolbar>
@@ -48,145 +49,141 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:weightSum="2"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="2">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="24sp"
-            >
+            android:padding="24sp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_condensed_medium"
+                android:letterSpacing="0.01"
                 android:text="Top users"
                 android:textColor="@color/text_base"
-                android:fontFamily="@font/fredoka_condensed_medium"
-                android:textSize="24sp"
-                android:letterSpacing="0.01"/>
+                android:textSize="24sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="19sp"
                 android:layout_marginTop="10sp"
-                android:background="@drawable/usable_inactive">
+                android:background="@drawable/usable_inactive"
+                android:orientation="horizontal"
+                android:padding="19sp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="24sp"
                     android:text="👨🏻‍🎨"
-                    android:layout_marginRight="24sp"
-                    android:textSize="36sp"
-                    android:textColor="@color/text_base"/>
+                    android:textColor="@color/text_base"
+                    android:textSize="36sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/fredoka_condensed_medium"
+                    android:gravity="start"
+                    android:letterSpacing="0.01"
                     android:text="Vincent van Gogh"
-                    android:layout_gravity="center_vertical"
-                    android:gravity="start"
-                    android:fontFamily="@font/fredoka_condensed_medium"
-                    android:textSize="17sp"
-                    android:letterSpacing="0.01"
                     android:textColor="@color/text_base"
-                    />
+                    android:textSize="17sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/fredoka_condensed_medium"
+                    android:gravity="end"
+                    android:letterSpacing="0.01"
                     android:text="12 points"
-                    android:layout_gravity="center_vertical"
-                    android:gravity="end"
-                    android:fontFamily="@font/fredoka_condensed_medium"
-                    android:textSize="17sp"
-                    android:letterSpacing="0.01"
-                    android:textColor="@color/text_base"/>
+                    android:textColor="@color/text_base"
+                    android:textSize="17sp" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginTop="10sp"
-                android:padding="19sp"
-                android:background="@drawable/usable_inactive">
+                android:background="@drawable/usable_inactive"
+                android:orientation="horizontal"
+                android:padding="19sp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="24sp"
                     android:text="👨🏻‍🔬"
-                    android:layout_marginRight="24sp"
-                    android:textSize="36sp"
-                    android:textColor="@color/text_base"/>
+                    android:textColor="@color/text_base"
+                    android:textSize="36sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Dmitri Ivanovich\nMendeleev"
                     android:layout_gravity="center_vertical"
-                    android:gravity="start"
                     android:fontFamily="@font/fredoka_condensed_medium"
-                    android:textSize="17sp"
+                    android:gravity="start"
                     android:letterSpacing="0.01"
+                    android:text="Dmitri Ivanovich\nMendeleev"
                     android:textColor="@color/text_base"
-                    />
+                    android:textSize="17sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="10 points"
                     android:layout_gravity="center_vertical"
-                    android:gravity="end"
                     android:fontFamily="@font/fredoka_condensed_medium"
-                    android:textSize="17sp"
+                    android:gravity="end"
                     android:letterSpacing="0.01"
-                    android:textColor="@color/text_base"/>
+                    android:text="10 points"
+                    android:textColor="@color/text_base"
+                    android:textSize="17sp" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginTop="10sp"
-                android:padding="19sp"
-                android:background="@drawable/usable_inactive">
+                android:background="@drawable/usable_inactive"
+                android:orientation="horizontal"
+                android:padding="19sp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="🧛🏻‍♂️"
                     android:layout_marginRight="24sp"
-                    android:textSize="36sp"
-                    android:textColor="@color/text_base"/>
+                    android:text="🧛🏻‍♂️"
+                    android:textColor="@color/text_base"
+                    android:textSize="36sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Vlad Tepes"
                     android:layout_gravity="center_vertical"
-                    android:gravity="start"
                     android:fontFamily="@font/fredoka_condensed_medium"
-                    android:textSize="17sp"
+                    android:gravity="start"
                     android:letterSpacing="0.01"
+                    android:text="Vlad Tepes"
                     android:textColor="@color/text_base"
-                    />
+                    android:textSize="17sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="8 points"
                     android:layout_gravity="center_vertical"
-                    android:gravity="end"
                     android:fontFamily="@font/fredoka_condensed_medium"
-                    android:textSize="17sp"
+                    android:gravity="end"
                     android:letterSpacing="0.01"
-                    android:textColor="@color/text_base"/>
+                    android:text="8 points"
+                    android:textColor="@color/text_base"
+                    android:textSize="17sp" />
 
             </LinearLayout>
 
@@ -211,41 +208,39 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="2"
                 android:layout_marginTop="9sp"
-                android:layout_marginBottom="9sp">
+                android:layout_marginBottom="9sp"
+                android:orientation="horizontal"
+                android:weightSum="2">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="10sp"
                     android:layout_weight="1"
-                    android:orientation="vertical"
                     android:background="@drawable/usable_base"
+                    android:orientation="vertical"
                     android:paddingLeft="20sp"
                     android:paddingRight="20sp"
-                    android:paddingBottom="10sp"
-                    android:layout_marginRight="10sp"
-                    >
+                    android:paddingBottom="10sp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/text_base"
-                        android:textSize="90sp"
-                        android:textAlignment="center"
                         android:text="🐻‍❄️"
-                        />
+                        android:textAlignment="center"
+                        android:textColor="@color/text_base"
+                        android:textSize="90sp" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/text_accent"
-                        android:textSize="13sp"
-                        android:text="Guess the animal"
-                        android:textAlignment="center"
                         android:fontFamily="@font/fredoka_condensed_medium"
                         android:letterSpacing="0.01"
-                        />
+                        android:text="Guess the animal"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_accent"
+                        android:textSize="13sp" />
 
 
                 </LinearLayout>
@@ -253,75 +248,72 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
                     android:layout_weight="1"
-                    android:orientation="vertical"
                     android:background="@drawable/usable_red"
+                    android:orientation="vertical"
                     android:paddingLeft="20sp"
                     android:paddingRight="20sp"
-                    android:paddingBottom="10sp"
-                    android:layout_marginLeft="10sp"
-                    >
+                    android:paddingBottom="10sp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/text_base"
-                        android:textSize="90sp"
-                        android:textAlignment="center"
                         android:text="✏️"
-                        />
+                        android:textAlignment="center"
+                        android:textColor="@color/text_base"
+                        android:textSize="90sp" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/text_accent"
-                        android:textSize="13sp"
-                        android:text="Word practice"
-                        android:textAlignment="center"
                         android:fontFamily="@font/fredoka_condensed_medium"
                         android:letterSpacing="0.01"
-                        />
+                        android:text="Word practice"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_accent"
+                        android:textSize="13sp" />
 
 
                 </LinearLayout>
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="9sp"
                 android:orientation="horizontal"
-                android:weightSum="2"
-                android:layout_marginTop="9sp">
+                android:weightSum="2">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="10sp"
                     android:layout_weight="1"
-                    android:orientation="vertical"
                     android:background="@drawable/usable_orange"
+                    android:orientation="vertical"
                     android:paddingLeft="20sp"
                     android:paddingRight="20sp"
-                    android:paddingBottom="10sp"
-                    android:layout_marginRight="10sp"
-                    >
+                    android:paddingBottom="10sp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/text_base"
-                        android:textSize="90sp"
-                        android:textAlignment="center"
                         android:text="🔊"
-                        />
+                        android:textAlignment="center"
+                        android:textColor="@color/text_base"
+                        android:textSize="90sp" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/text_accent"
-                        android:textSize="13sp"
-                        android:text="Audition"
-                        android:textAlignment="center"
                         android:fontFamily="@font/fredoka_condensed_medium"
                         android:letterSpacing="0.01"
-                        />
+                        android:text="Audition"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_accent"
+                        android:textSize="13sp" />
 
 
                 </LinearLayout>
@@ -329,33 +321,31 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
                     android:layout_weight="1"
-                    android:orientation="vertical"
                     android:background="@drawable/usable_green"
+                    android:orientation="vertical"
                     android:paddingLeft="20sp"
                     android:paddingRight="20sp"
-                    android:paddingBottom="10sp"
-                    android:layout_marginLeft="10sp"
-                    >
+                    android:paddingBottom="10sp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/text_base"
-                        android:textSize="90sp"
-                        android:textAlignment="center"
                         android:text="🎮"
-                        />
+                        android:textAlignment="center"
+                        android:textColor="@color/text_base"
+                        android:textSize="90sp" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/text_accent"
-                        android:textSize="13sp"
-                        android:text="Game"
-                        android:textAlignment="center"
                         android:fontFamily="@font/fredoka_condensed_medium"
                         android:letterSpacing="0.01"
-                        />
+                        android:text="Game"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_accent"
+                        android:textSize="13sp" />
 
 
                 </LinearLayout>
@@ -364,7 +354,6 @@
 
 
         </LinearLayout>
-
 
 
     </LinearLayout>
