@@ -4,7 +4,7 @@
     tools:context="com.screens.language_app.NoConnection"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/text_accent"
+    android:background="@color/background"
     android:orientation="vertical">
 
     <Toolbar

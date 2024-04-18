@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.screens.language_app.Login"
     android:orientation="vertical"
+    android:background="@color/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
@@ -75,6 +76,7 @@
             android:background="@drawable/usable_light"
             android:padding="18sp"
             android:textSize="15sp"
+            android:textColorHint="@color/text_base"
             android:fontFamily="@font/fredoka_condensed_medium"
             android:letterSpacing="0.01"
             android:layout_marginLeft="24sp"
@@ -106,6 +108,7 @@
             android:id="@+id/EditText1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColorHint="@color/text_base"
             android:hint="Password"
             android:imeOptions="actionNext"
             android:nextFocusDown="@+id/next"

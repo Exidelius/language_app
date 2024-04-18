@@ -5,7 +5,7 @@
     tools:context="com.screens.language_app.OnBoarding"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/text_accent"
+    android:background="@color/background"
     android:orientation="vertical"
     android:weightSum="2">
 
@@ -72,7 +72,7 @@
                 android:textSize="15sp"
                 android:lineHeight="20sp"
                 android:letterSpacing="0.01"
-                android:textColor="@color/gray"
+                android:textColor="@color/text_base"
                 android:layout_height="wrap_content"
                 android:text="With conversation-based learning,\nyou'll be talking from lesson one"
                 android:textAlignment="center"/>

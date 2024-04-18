@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Language App</string>
+
+    <string name="signup">Not you member? <a href="">Signup</a></string>
+    <string name="google_for">You can use <a href="">Google for</a> sign in</string>
+    <string name="login">Already you member? <a href="">Login</a></string>
+</resources>

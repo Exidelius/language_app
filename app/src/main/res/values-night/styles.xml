@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="toolbar_style">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_accent</item>
+        <item name="android:fontFamily">@font/fredoka_condensed_medium</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:fontWeight">500</item>
+    </style>
+</resources>

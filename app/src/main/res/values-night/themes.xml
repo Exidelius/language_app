@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MobileApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/accent</item>
+    </style>
+    <style name="Theme.MobileApp.Green" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/usable_green</item>
+    </style>
+    <style name="Theme.MobileApp.Red" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/usable_red</item>
+    </style>
+</resources>
+
