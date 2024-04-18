@@ -19,6 +19,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/text_accent"
             android:layout_marginRight="66sp"
+            android:onClick="back"
             android:text="Guess the animal"
             android:fontFamily="@font/fredoka_condensed_medium"
             android:textSize="22sp"
@@ -53,24 +54,26 @@
 
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_next"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/usable_base"
             android:textColor="@color/text_accent"
             android:textAllCaps="false"
+            android:onClick="next"
             android:fontFamily="@font/fredoka_condensed_medium"
             android:textSize="24sp"
             android:padding="16sp"
             android:layout_margin="12sp"
             android:text="Next" />
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/button_try_again"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/usable_base"
             android:textColor="@color/text_accent"
             android:textAllCaps="false"
+            android:onClick="try_again"
             android:fontFamily="@font/fredoka_condensed_medium"
             android:textSize="24sp"
             android:padding="16sp"

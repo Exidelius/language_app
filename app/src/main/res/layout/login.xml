@@ -141,7 +141,7 @@
         android:layout_marginTop="32sp">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/usable_base"
@@ -149,6 +149,7 @@
             android:textAllCaps="false"
             android:fontFamily="@font/fredoka_condensed_medium"
             android:textSize="24sp"
+            android:onClick="login"
             android:padding="16sp"
             android:layout_margin="12sp"
             android:text="Login" />
@@ -162,6 +163,7 @@
             android:textSize="15sp"
             android:fontFamily="@font/fredoka_condensed_medium"
             android:letterSpacing="0.01"
+            android:onClick="register"
             android:textFontWeight="400"
             android:layout_marginTop="24sp"
             android:layout_marginBottom="12sp"
@@ -173,6 +175,7 @@
             android:textColor="@color/text_base"
             android:textAlignment="center"
             android:textSize="15sp"
+            android:onClick="login"
             android:fontFamily="@font/fredoka_condensed_medium"
             android:letterSpacing="0.01"
             android:textFontWeight="400"/>

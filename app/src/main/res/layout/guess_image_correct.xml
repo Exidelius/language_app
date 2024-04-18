@@ -9,6 +9,7 @@
     <Toolbar
         android:layout_width="match_parent"
         android:layout_height="54sp"
+        android:onClick="back"
         android:background="@color/usable_green"
         android:navigationIcon="@drawable/back_arrow"
         android:nestedScrollingEnabled="false"
@@ -53,7 +54,7 @@
 
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_next"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/usable_base"
@@ -61,6 +62,7 @@
             android:textAllCaps="false"
             android:fontFamily="@font/fredoka_condensed_medium"
             android:textSize="24sp"
+            android:onClick="next"
             android:padding="16sp"
             android:layout_margin="12sp"
             android:text="Next" />

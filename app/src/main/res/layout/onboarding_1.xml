@@ -85,7 +85,7 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button_next"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/usable_base"
@@ -93,12 +93,13 @@
                 android:textAllCaps="false"
                 android:fontFamily="@font/fredoka_condensed_medium"
                 android:textSize="24sp"
+                android:onClick="next"
                 android:padding="16sp"
                 android:layout_margin="12sp"
                 android:text="Next" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/button_skip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Skip onboarding"
@@ -107,6 +108,7 @@
                 android:textSize="15sp"
                 android:fontFamily="@font/fredoka_condensed_medium"
                 android:letterSpacing="0.01"
+                android:onClick="skip"
                 android:textFontWeight="400"/>
         </LinearLayout>
     </LinearLayout>

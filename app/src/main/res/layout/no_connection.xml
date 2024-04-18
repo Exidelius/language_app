@@ -44,6 +44,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/button_check"
         android:layout_width="327sp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

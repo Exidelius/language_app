@@ -99,11 +99,13 @@
             android:layout_height="match_parent">
 
             <Button
+                android:id="@+id/button_choose_language"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/usable_base"
                 android:padding="10sp"
                 android:text="Choose"
+                android:onClick="login"
                 android:textColor="@color/text_accent"
                 android:textAllCaps="false"
                 android:textSize="20sp"

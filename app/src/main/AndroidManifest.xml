@@ -17,7 +17,79 @@
         >
 
         <activity
+            android:name="com.screens.language_app.GuessVoiceResult"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.GuessVoice"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.GuessVoiceListener"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.GuessTranslation"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.GuessImage"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.GuessImageCorrect"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.GuessImageIncorrect"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.OnBoarding"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.OnBoarding1"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.OnBoarding2"
+            android:exported="false"
+            />
+        <activity
             android:name="com.screens.language_app.Login"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.MainScreen"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.NoConnection"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.Profile"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.ProfileResize"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.Register"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.RegisterPassword"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.SelectLanguage"
+            android:exported="false"
+            />
+        <activity
+            android:name="com.screens.language_app.SplashScreen"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MobileApp">

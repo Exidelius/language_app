@@ -44,10 +44,12 @@
         android:padding="24sp">
 
         <Button
+            android:id="@+id/button_dark_theme"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/usable_base"
             android:padding="10sp"
+            android:onClick="switch_theme"
             android:text="Switch to Dark"
             android:textColor="@color/text_accent"
             android:textAllCaps="false"
@@ -55,10 +57,12 @@
             android:letterSpacing="0.01"
             android:layout_marginBottom="14sp"/>
         <Button
+            android:id="@+id/button_choose_language"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/usable_base"
             android:padding="10sp"
+            android:onClick="change_language"
             android:text="Change mother Language"
             android:textColor="@color/text_accent"
             android:textAllCaps="false"
@@ -66,11 +70,13 @@
             android:letterSpacing="0.01"
             android:layout_marginBottom="14sp"/>
         <Button
+            android:id="@+id/button_choose_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/usable_base"
             android:padding="10sp"
             android:text="Change your image"
+            android:onClick="change_image"
             android:textColor="@color/text_accent"
             android:textAllCaps="false"
             android:textSize="20sp"
@@ -84,6 +90,7 @@
             android:text="Logout"
             android:textColor="@color/text_accent"
             android:textAllCaps="false"
+            android:onClick="logout"
             android:textSize="20sp"
             android:letterSpacing="0.01"
             android:layout_marginBottom="14sp"/>

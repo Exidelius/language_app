@@ -46,11 +46,13 @@
             android:layout_weight="2">
 
             <Button
+                android:id="@+id/button_use"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/usable_base"
                 android:padding="10sp"
-                android:text="Switch to Dark"
+                android:onClick="use"
+                android:text="Use that image"
                 android:textColor="@color/text_accent"
                 android:textAllCaps="false"
                 android:textSize="20sp"

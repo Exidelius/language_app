@@ -85,7 +85,7 @@
             android:layout_weight="1">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button_choose_language"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/usable_base"
@@ -94,17 +94,19 @@
                 android:fontFamily="@font/fredoka_condensed_medium"
                 android:textSize="24sp"
                 android:padding="16sp"
+                android:onClick="next"
                 android:layout_margin="12sp"
                 android:text="Choose a language" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/button_skip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Skip onboarding"
                 android:textColor="@color/text_base"
                 android:textAlignment="center"
                 android:textSize="15sp"
+                android:onClick="skip"
                 android:fontFamily="@font/fredoka_condensed_medium"
                 android:letterSpacing="0.01"
                 android:textFontWeight="400"/>

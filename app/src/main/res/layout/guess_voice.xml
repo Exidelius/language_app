@@ -9,6 +9,7 @@
     <Toolbar
         android:layout_width="match_parent"
         android:layout_height="54sp"
+        android:onClick="back"
         android:background="@color/accent"
         android:navigationIcon="@drawable/back_arrow"
         android:nestedScrollingEnabled="false"
@@ -67,12 +68,13 @@
             android:letterSpacing="0.01"/>
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/button_check"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/usable_base"
             android:textColor="@color/text_accent"
             android:textAllCaps="false"
+            android:onClick="guess"
             android:fontFamily="@font/fredoka_condensed_medium"
             android:textSize="24sp"
             android:padding="16sp"

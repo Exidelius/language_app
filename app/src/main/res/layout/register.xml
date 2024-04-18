@@ -13,6 +13,7 @@
         android:background="@color/accent"
         android:navigationIcon="@drawable/back_arrow"
         android:nestedScrollingEnabled="false"
+        android:onClick="back"
         android:titleTextAppearance="@style/toolbar_style"
         >
         <TextView
@@ -164,7 +165,7 @@
         android:layout_marginTop="32sp">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_continue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/usable_base"
@@ -172,6 +173,7 @@
             android:textAllCaps="false"
             android:fontFamily="@font/fredoka_condensed_medium"
             android:textSize="24sp"
+            android:onClick="register"
             android:padding="16sp"
             android:layout_margin="12sp"
             android:text="Continue" />
@@ -183,6 +185,7 @@
             android:textColor="@color/text_base"
             android:textAlignment="center"
             android:textSize="15sp"
+            android:onClick="login"
             android:fontFamily="@font/fredoka_condensed_medium"
             android:letterSpacing="0.01"
             android:textFontWeight="400"/>
