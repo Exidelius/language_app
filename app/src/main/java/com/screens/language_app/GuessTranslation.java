@@ -7,11 +7,10 @@ import androidx.annotation.Nullable;
 
 import com.example.mobileapp.R;
 
-public class GuessIncorrect extends ComponentActivity {
+public class GuessTranslation extends ComponentActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
-        getWindow().setStatusBarColor(getResources().getColor(R.color.usable_red));
     }
 }
